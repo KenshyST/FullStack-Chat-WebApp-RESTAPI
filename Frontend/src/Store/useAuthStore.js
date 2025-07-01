@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { axiosInstance } from "../Lib/Axios.js";
+import { axiosInstance } from "../lib/Axios";
 import toast from "react-hot-toast";
 import { io } from "socket.io-client";
 
