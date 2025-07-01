@@ -99,7 +99,7 @@ const SignUpPage = () => {
               <p className="validator-hint hidden">
                 Must be 2 to 30 characters
                 <br />
-                containing only letters, numbers or dash
+                containing only letters
               </p>
               {/*This Div Below is for Email Input */}
               <label className="input validator">
