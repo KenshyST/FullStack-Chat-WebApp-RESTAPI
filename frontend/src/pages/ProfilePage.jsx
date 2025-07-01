@@ -23,8 +23,8 @@ const ProfilePage = () => {
   };
 
   const sendUpdatedData = async () => {
-    if (selectedFile.size > 1024 * 1024 * 5) {
-      toast.error("Image too large. Max 5MB");
+    if (selectedFile.size > 1024 * 1024 * 0.1) {
+      toast.error("Image too large. Max 100KB");
       return;
     }
     try {
