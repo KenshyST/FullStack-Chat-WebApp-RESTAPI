@@ -17,11 +17,7 @@ const Navbar = () => {
               className="flex items-center gap-2.5 hover:opacity-80 transition-all"
             >
               <div className="size-9 rounded-lg bg-pink-800 flex items-center justify-center">
-                <img
-                  src="../../public/KenshyST.svg"
-                  alt="Kenshy Icon"
-                  className=""
-                />
+                <img src="/KenshyST.svg" alt="Kenshy Icon" className="" />
               </div>
               <h1 className="text-lg font-bold">Kenshy_chat</h1>
             </Link>
