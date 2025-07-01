@@ -10,7 +10,10 @@ const NoChatSelected = () => {
              justify-center animate-bounce"
             >
               <div className="size-9 rounded-lg bg-pink-800 flex items-center justify-center">
-                <img src="/KenshyST.svg" alt="Kenshy Icon" className="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}KenshyST.svg`}
+                  alt="Kenshy Icon"
+                />
               </div>
             </div>
           </div>

@@ -47,7 +47,10 @@ const SignUpPage = () => {
                   className="size-12 rounded-xl bg-pink-800 flex items-center justify-center
                             group-hover:bg-primary/20 transition-colors"
                 >
-                  <img src="/KenshyST.svg" alt="Kenshy Icon" className="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}KenshyST.svg`}
+                    alt="Kenshy Icon"
+                  />
                 </div>
                 <h1 className="text-2xl font-bold mt-2"> Create Account</h1>
                 <p className="text-base-content/60">

@@ -34,7 +34,10 @@ const LoginPage = () => {
           <div className="text-center mb-8">
             <div className="flex flex-col items-center gap-2 group">
               <div className="size-12 rounded-xl bg-pink-800 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                <img src="/KenshyST.svg" alt="Kenshy Icon" className="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}KenshyST.svg`}
+                  alt="Kenshy Icon"
+                />
               </div>
               <h1 className="text-2xl font-bold mt-2">Welcome Back</h1>
               <p className="text-base-content/60">Sign in to your account</p>
