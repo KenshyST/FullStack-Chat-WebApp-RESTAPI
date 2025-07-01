@@ -11,6 +11,6 @@ const router = express.Router();
 router.get("/users", protectRoute, getUsersForSideBar); // Obtener mensajes entre el usuario autenticado y el receptor
 router.get("/:id", protectRoute, getMessages); // Obtener mensajes entre el usuario autenticado y el receptor
 
-router.post("/send/:id", protectRoute, sendMessage); // Enviar un mensaje al receptor
+router.post("/send/:receiverId", protectRoute, sendMessage); // Enviar un mensaje al receptor
 
 export default router;
